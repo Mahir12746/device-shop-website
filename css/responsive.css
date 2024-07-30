@@ -6,6 +6,10 @@
     .navbar-main>div {
         margin-top: 10px;
     }
+
+    .discount50 {
+        left: 20%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -17,6 +21,14 @@
     }
     .navbar-main {
         flex-direction: row;
-        
+
+    }
+
+    .banner-main {
+        flex-direction: column;
+    }
+
+    .banner-children {
+        width: 100%;
     }
 }

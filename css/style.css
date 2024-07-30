@@ -6,7 +6,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* navbar style starts here */
+/* navbar style starts */
 .navbar-wrapper {
     background-color: rgb(71, 85, 105);
 }
@@ -32,4 +32,53 @@
 .nav-hamburger-menu {
     display: none;
 }
-/* navbar style ends here */
+/* navbar style ends */
+
+/* banner style starts */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.banner-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(242,242,242);
+}
+
+.banner-children {
+    width: 47%;
+    position: relative;
+}
+
+.banner-children img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner-btn {
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.discount50 {
+    background-color: rgba(0, 0, 0, 0.442);
+    color: white;
+    width: max-content;
+    padding: 20px 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+/* banner style ends */
