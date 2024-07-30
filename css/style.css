@@ -1,0 +1,35 @@
+/* Initial setup using the universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* navbar style starts here */
+.navbar-wrapper {
+    background-color: rgb(71, 85, 105);
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.nav-menu-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-hamburger-menu {
+    display: none;
+}
+/* navbar style ends here */

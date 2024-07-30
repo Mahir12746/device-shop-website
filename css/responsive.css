@@ -1,0 +1,22 @@
+@media screen and (max-width:800px) {
+    .navbar-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-main>div {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-hamburger-menu {
+        display: block;
+    }
+    .navbar-main>div:nth-child(2) {
+        display: none;
+    }
+    .navbar-main {
+        flex-direction: row;
+        
+    }
+}
